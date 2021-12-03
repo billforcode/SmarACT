@@ -1,0 +1,33 @@
+<!DOCTYPE ASCIITerminalApplicationSettings>
+<ASCIITerminalApplicationSettings version="2.0">
+ <QuickLoadSlots>
+  <Slot file=""/>
+  <Slot file=""/>
+  <Slot file=""/>
+  <Slot file=""/>
+  <Slot file=""/>
+  <Slot file=""/>
+  <Slot file=""/>
+  <Slot file=""/>
+ </QuickLoadSlots>
+ <PortConfiguration>
+  <ConnctionType connection="0"/>
+ </PortConfiguration>
+ <SerialOptions>
+  <BaudRates>
+   <Entry rate="9600"/>
+   <Entry rate="14400"/>
+   <Entry rate="19200"/>
+   <Entry rate="38400"/>
+   <Entry rate="57600"/>
+   <Entry rate="100000"/>
+   <Entry rate="115200"/>
+  </BaudRates>
+  <SendInitialString string=":" send="1"/>
+  <SendTerminalString string="\012" send="1"/>
+  <ComPort portIndex="4" baudRateIndex="0"/>
+ </SerialOptions>
+ <NetworkConfiguration>
+  <Interface port="5000" ip="192.168.001.200"/>
+ </NetworkConfiguration>
+</ASCIITerminalApplicationSettings>
